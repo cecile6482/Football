@@ -1,0 +1,416 @@
+.red-goal{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+  }
+
+.red-j1{
+    content: "";
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j2{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 11%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+ 
+.red-j3{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+  }
+
+.red-j4{
+    content: "";
+    position: absolute;
+    top: 67%;
+    left: 13%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j5{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j6{
+    content: "";
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j7{
+    content: "";
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j8{
+    content: "";
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j9{
+    content: "";
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.red-j10{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #fe7a15;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-goal{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+  }
+
+.blue-j1{
+    content: "";
+    position: absolute;
+    top: 21%;
+    right: 13%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j2{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 11%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+ 
+.blue-j3{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+  }
+
+.blue-j4{
+    content: "";
+    position: absolute;
+    top: 67%;
+    right: 13%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j5{
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j6{
+    content: "";
+    position: absolute;
+    top: 27%;
+    right: 30%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j7{
+    content: "";
+    position: absolute;
+    top: 63%;
+    right: 30%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j8{
+    content: "";
+    position: absolute;
+    top: 83%;
+    right: 40%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j9{
+    content: "";
+    position: absolute;
+    top: 41%;
+    right: 45%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.blue-j10{
+    content: "";
+    position: absolute;
+    top: 55%;
+    right: 45%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #0191b4;
+    background-image: url("../img/jersey.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    transition: 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+
+.ballon{
+    content: "";
+    position: absolute;
+    top: 48%;
+    right: 48%;
+    display: block;
+    width: 3%;
+    height: 7%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url("../img/football.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+@media screen and (max-width: 480px) {
+    body {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .terrain {
+      transform: rotate(90deg);
+      position: absolute;
+      top: 27%;
+      left: -20%;
+      width: 143%;
+      height: 25%;
+    }
+
+    .joueurs {
+      background-image: none;
+    }
+
+    .but::after, .but::before {
+      top: 47%;
+    }
+
+    .red-btn, .blue-btn {
+      margin: 0;
+    }
+  }

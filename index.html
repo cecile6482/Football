@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" id="change-style">
+    <link rel="stylesheet" href="css/wickedcss.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
+        </style>
+    <title>Football</title>
+</head>
+<body>
+    <div class="dots" onclick="this.classList.toggle('active');">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="shadow cut"></div>
+        <div class="container cut">
+          <div class="drop cut2"></div>
+        </div>
+        <nav class="list">
+            <ul>
+                <li><button onclick="swap('css/442-442.css')" class="btn">
+                    4-4-2 / 4-4-2
+                </button></li>
+                <li><button onclick="swap('css/4-3-3.css')" class="btn">
+                    4-3-3 / 4-4-2
+                </button></li>
+                <li><button onclick="swap('css/3-5-2.css')" class="btn">
+                    3-5-2 / 4-4-2
+                </button></li>
+                <li><button onclick="swap('css/4-3-3b.css')" class="btn">
+                    4-4-2 / 4-3-3
+                </button></li>
+                <li><button onclick="swap('css/433-433.css')" class="btn">
+                    4-3-3 / 4-3-3
+                </button></li>
+                <li><button onclick="swap('css/352-433.css')" class="btn">
+                    3-5-2 / 4-3-3
+                </button></li>
+                <li><button onclick="swap('css/3-5-2b.css')" class="btn">
+                    4-4-2 / 3-5-2
+                </button></li>
+                <li><button onclick="swap('css/433-352.css')" class="btn">
+                    4-3-3 / 3-5-2
+                </button></li>
+                <li><button onclick="swap('css/352-352.css')" class="btn">
+                    3-5-2 / 3-5-2
+                </button></li>
+            </ul>
+        </nav>
+        <div class="dot"></div>
+    </div>
+    <div class="cursor"
+         onclick="document.querySelector('.dots').classList.toggle('active');"></div>
+        <button onclick="swap('css/attaque1.css')" class="btn2">
+            Attaque 4-4-2
+        </button>
+        <button onclick="swap('css/index.css')" class="btn">
+            Reset
+        </button>
+     <div class="terrain">
+        <div class="semi1"></div>
+        <div class="semi2"></div>
+        <div class="milieu"></div>
+        <div class="but"></div>
+        <div class="corner"></div>
+        <div class="team-red">           
+            <div class="floater joueurs red-goal"></div>
+            <div class="floater joueurs red-j1"></div>
+            <div class="floater joueurs red-j2"></div>
+            <div class="floater joueurs red-j3"></div>
+            <div class="floater joueurs red-j4"></div>
+            <div class="floater joueurs red-j5"></div>
+            <div class="floater joueurs red-j6"></div>
+            <div class="floater joueurs red-j7"></div>
+            <div class="floater joueurs red-j8"></div>
+            <div class="floater joueurs red-j9"></div>
+            <div class="floater joueurs red-j10"></div>
+            <div class="wiggle joueurs red-remp1"></div>
+            <div class="wiggle joueurs red-remp2"></div>
+            <div class="wiggle joueurs red-remp3"></div>
+        </div>
+        <div class="floater joueurs arbitre">A</div>
+        <div class="team-blue"> 
+            <div class="floater joueurs blue-goal"></div>
+            <div class="floater joueurs blue-j1"></div>
+            <div class="floater joueurs blue-j2"></div>
+            <div class="floater joueurs blue-j3"></div>
+            <div class="floater joueurs blue-j4"></div>
+            <div class="floater joueurs blue-j5"></div>
+            <div class="floater joueurs blue-j6"></div>
+            <div class="floater joueurs blue-j7"></div>
+            <div class="floater joueurs blue-j8"></div>
+            <div class="floater joueurs blue-j9"></div>
+            <div class="floater joueurs blue-j10"></div>
+            <div class="wiggle joueurs blue-remp1"></div>
+            <div class="wiggle joueurs blue-remp2"></div>
+            <div class="wiggle joueurs blue-remp3"></div>
+        </div>
+        <div class="rotation ballon"></div>
+        <div class="pulse fleche-une"></div>
+        <div class="pulse fleche-une-bis"></div>
+        <div class="pulse fleche-deux"></div>
+        <div class="pulse fleche-deux-bis"></div>
+        <div class="pulse fleche-trois"></div>
+        <div class="pulse fleche-trois-bis"></div>
+        <div class="pulse fleche-quatre"></div>
+        <div class="pulse fleche-quatre-bis"></div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
